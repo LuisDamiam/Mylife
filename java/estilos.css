@@ -8,7 +8,7 @@
 .todo{
 	display: grid;
 	grid-template-columns: auto 80%;
-	background:  url("./img//a.jpg")no-repeat center center/cover;
+	background:  url("./img//a.jpg" )no-repeat center center/cover ;
 }
 
 .c1, .a5{
@@ -49,8 +49,25 @@
 	list-style:  none;
 
 }
+.l2 li{
+	list-style:  none;
+
+}
+
 @media (max-width: 700px){
 	
+	.c2{
+	grid-template-columns: auto;	
+	}
+	.a5{
+		grid-column: 1/1; 
+	width: 400px;
+	height: auto;
+	}
+	
+
+}
+@media (max-width: 1030px){
 	.c2{
 	grid-template-columns: auto;	
 	}
@@ -61,20 +78,9 @@
 
 	}
 	
-
-}
-@media (max-width: 500px){
-	.todo{
-		display: grid;
-		grid-template-columns: auto;
-		
-	}
-	.caj{
-		margin: auto;
-	}
 }
 
-@media(max-width: 300px,max-height: 406px){
+@media(max-width: 685px){
 	.todo{
 		display: grid;
 		grid-template-columns: auto;
