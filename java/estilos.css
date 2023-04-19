@@ -1,14 +1,13 @@
-*{
-	box-sizing: border-box;
-	margin: 0px;
-	padding: 0px;
-	
-}
 
+body{
+	width: 100vw;
+	height: 100vw;
+	background:  url("./img//a.jpg" );
+}
 .todo{
+	font-size: 1em;
 	display: grid;
 	grid-template-columns: auto 80%;
-	background:  url("./img//a.jpg" )no-repeat center center/cover ;
 }
 
 .c1, .a5{
@@ -30,7 +29,15 @@
 	border-radius: 30px;
 }
 
-.a1,.a2,.a3,.a4{
+.a1{
+	font-size: 0.9em;
+	width: 400px;
+	height: 290px;
+	background:  url("./img//a.jpg")no-repeat center center/cover;
+	padding: 20px;
+	color:lightgray;
+}
+.a2,.a3,.a4{
 	width: 400px;
 	height: 290px;
 	background:  url("./img//a.jpg")no-repeat center center/cover;
